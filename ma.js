@@ -1,3 +1,12 @@
+Webcam.set({
+   width: 150,
+   height:150,
+   image_format:'png',
+   png_quality:90
+});
+cvs= document.getElementById("canvas");
+webcam.attach('canvas');
+
 function preload(){
 
 }
